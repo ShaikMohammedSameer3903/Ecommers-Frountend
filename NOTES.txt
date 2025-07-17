@@ -1,0 +1,75 @@
+16-07-2025
+
+DAY-1
+
+Depose = Development (plan,code,test,bild) + operations (release,deploy,monitor,operate)
+
+->Collaboration between development and operation teams
+->Automation of software delivery processes
+->Continuous interaction (ci) and continuous Delivery(cd)
+-> import quality and speed
+
+=>continous integration
+   ->Automatically build and test when there is change in code
+   -> ensure the bug free code
+   -> ensure hidher code quality and reduces integration issues
+   ->packaging the application (war/jar/docker image)
+
+
+=>continous deployment
+->automatically deploy for production
+
+
+life cycle:
+------------
+
+code-->build-->test-->deployment
+
+tools:
+------
+code   --  git,github,gitlab,bitbucket
+build  --  war/jar/docker image
+test   --  pytest,junit test,SonarQube
+Deploy --  apache/tomcat,docker,kubernetes
+
+
+GIT:
+----
+->its a version control source code repository 
+
+
+SOUCE CODE OD CICD-report IN GIT:
+-------------------------------------
+
+echo "# CICD-report-" >> README.md
+
+git init                                       #initialize a new git repository  in the current directory
+
+git add README.md                              #Stage all the files to the committed
+
+git commit -m "first commit"                   #commit the staged files with the message"first commit"
+
+git branch -M main                             # Rename the current branch to 'main' (forcefully,if necessary)
+
+git remote add origin https://github.com/ShaikMohammedSameer3903/CICD-report-.git     #Link the local repository to the remote repository
+
+git push -u origin main                        #Push the main branch to github
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
